@@ -30,6 +30,16 @@ python examples/actor_python.py
 bash   examples/actor_curl.sh         # capped with maxTotalChargeUsd=0.05
 ```
 
+## Track hiring changes (snapshot + diff)
+```bash
+cd examples/hiring_diff
+python snapshot.py lever spotify          # writes snapshots/lever-spotify-<date>.json
+# ...a day or more later...
+python snapshot.py lever spotify
+python diff.py snapshots/<older>.json snapshots/<newer>.json   # opened / closed postings
+python actor_new_since.py                 # Actor: jobs posted in the last 7 days (needs APIFY_TOKEN)
+```
+
 ## Real output (2026-10-19)
 `examples/direct_curl.sh`:
 ```
