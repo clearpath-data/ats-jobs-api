@@ -7,6 +7,8 @@ Pull open jobs from **Greenhouse, Lever and Ashby** job boards with Python or cu
 
 > **Disclosure:** I built and sell the ats-jobs-by-company Actor ($0.001 per saved job on Apify's free plan). Option 1 needs nothing from me.
 
+**Tutorial:** [Watching a company's hiring week to week: snapshot and diff Greenhouse, Lever and Ashby job boards](https://dev.to/clearpathdata/watching-a-companys-hiring-week-to-week-snapshot-and-diff-greenhouse-lever-and-ashby-job-boards-1gk7) on dev.to.
+
 ## The public endpoints
 | ATS | Endpoint | Jobs are in | Title | Location | URL | Date |
 |---|---|---|---|---|---|---|
